@@ -1,0 +1,10 @@
+.footer{
+    background-color: red;
+    display "flex";
+    flex: "column";
+}
+
+#footer{
+    background-color: red;
+}
+
