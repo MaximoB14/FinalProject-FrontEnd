@@ -3,9 +3,9 @@ import '../DonationSection/DonationSection.css'
 import Button from 'react-bootstrap/Button';
 export default function HomeSection (){
     return(
-        <div>
+        <>
             <section className="donation" id="donation">
-                <div className="separator"></div>
+                <div className="don__separator"></div>
                     <div className="donation__container">
                         <div className="donation__data">
                             <h1 className="donation__title__bold">Donaciones</h1>
@@ -19,6 +19,6 @@ export default function HomeSection (){
                     </div>
                 <div className="separator"></div>
             </section>
-        </div>
+        </>
     );
 }

@@ -3,7 +3,7 @@ import '../HomeSection/HomeSection.css'
 import ActiveStateButton from'../buttons/ActiveStateButtons/activestatebutton';
 export default function HomeSection (){
     return(
-        <div>
+        <>
             <section className="home" id="home">
                 <div className="home__container grid">
                     <div className="home__data">
@@ -21,6 +21,6 @@ export default function HomeSection (){
                 </div>
             </section>
             <div className="separator"></div>
-        </div>
+        </>
     );
 }

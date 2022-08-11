@@ -94,3 +94,10 @@
   background-color: var(--button-color-alt);
   box-shadow:none;
 }
+
+.don__separator{
+  height: 10px;
+  background-color: var(--second-color);
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+  margin-top: 150px;
+}

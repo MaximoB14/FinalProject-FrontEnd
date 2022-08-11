@@ -3,7 +3,7 @@ import '../VolunteerSection/VolunteerSection.css'
 import Button from 'react-bootstrap/Button';
 export default function VolunteerSection(){
     return(
-        <div>
+        <>
             <section className="volunteer" id="volunteer">
                 <div className="separator"></div>
                     <div className="volunteer__container">
@@ -19,6 +19,6 @@ export default function VolunteerSection(){
                     </div>
                 <div className="separator"></div>
             </section>
-        </div>
+        </>
     );
 }

@@ -4,19 +4,17 @@ import DailySection from '../../components/DailySection/DailySection';
 import VolunteerSection from '../../components/VolunteerSection/VolunteerSection';
 import AboutSection from '../../components/AboutSection/AboutSection';
 import DonationSection from '../../components/DonationSection/DonationSection'
-import FooterSection from '../../components/Footer/Footer';
-import '../main/main.css'
+import './home.css'
 
-export default function Main() {
+export default function Home() {
     return(
-        <div>
+        <>
             <HomeSection/>
             <DailySection/>
             <VolunteerSection/>
             <AboutSection/>
             <DonationSection/>
-            <FooterSection/>
-        </div>
+        </>
 
     );
 }

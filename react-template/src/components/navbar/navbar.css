@@ -6,7 +6,7 @@
 
   /*========== Colors ==========*/
   --first-color: #E8CA9E;
-  --second-color: #77B3B8;
+  --second-color: rgb(119, 179, 184);
   --button-color: #77B3B8;
   --button-color-alt: rgb(0, 56, 53);
   --title-color: rgb(242, 239, 235);
@@ -65,22 +65,22 @@
 .nav__logo{
   height: 50px;
   width: 50px;
-  margin: 10px 20px 10px 10px; /* Arriba Derecha Abajo Izquierda*/
+  margin: 10px 10px 10px 30px; /* Arriba Derecha Abajo Izquierda*/
 }
 
-.nav__link{
-  color: var(--text-color);
-  font-size: large;
-  margin-right: 20px;
-  transition: .3s;
+.nav-link{
+  color: var(--text-color) !important;
+  font-size: large !important;
+  margin-right: 20px !important;
+  transition: .3s !important;
 } 
 
-.nav__link:hover{
-  color: var(--button-color-alt);
+.nav-link:hover{
+  color: var(--button-color-alt) !important;
 }
 
-.nav__link:focus{
-  color: var(--button-color-alt);
+.nav-link:focus{
+  color: var(--button-color-alt) !important;
 
 }
 
@@ -90,38 +90,40 @@
 }
 
 #navbarScrollingDropdown:hover{
-  color: var(--button-color-alt);
+  color: var(--button-color-alt) !important;
 }
 
 .dropdown-menu.show {
-  background-color: var(--text-color);
+  background-color: var(--text-color) !important; 
   border: none;
 }
 
+
+
 .nav__link__item{
-  color: var(--button-color-alt);
+  color: var(--button-color-alt) !important;
   transition: .3s;
 }
 
 .nav__link__item:hover{
-  background-color: var(--second-color);
+  background-color: var(--second-color) !important;
 
 }
 
 .search__btn{
-  background-color: var(--second-color);
-  margin-right: 10px;
-  border: none;
-  transition: .3s;
+  background-color: var(--second-color) !important;
+  margin-right: 10px !important;
+  border: none !important;
+  transition: .3s !important;
 }
 
-.search__btn:hover{
-  background-color: var(--button-color-alt);
+.btn:hover{
+  background-color: var(--button-color-alt) !important;
 }
 
-.search__btn:focus{
-  background-color: var(--button-color-alt);
-  box-shadow: none;
+.btn:focus{
+  background-color: var(--button-color-alt) !important;
+  box-shadow: none !important;
 }
 
 .separator{
