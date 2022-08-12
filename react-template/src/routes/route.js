@@ -1,7 +1,9 @@
 import Volunteer from "../pages/volunteer/volunteer";
 import Donation from "../pages/donate/donation"
-import BasicLayout from "../layouts/basiclayout";
+import About from "../pages/About/About";
 import Home from "../pages/home/home";
+import New from "../pages/New/New"
+import BasicLayout from "../layouts/basiclayout";
 
 
 const routesClient = [
@@ -26,6 +28,19 @@ const routesClient = [
         
     },
 
+    {
+        component:About,
+        layout:BasicLayout,
+        path:"/about",
+        
+    },
+
+    {
+        component:New,
+        layout:BasicLayout,
+        path:"/news",
+        
+    },
 ];
 const routes =[...routesClient];
 

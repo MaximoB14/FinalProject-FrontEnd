@@ -16,8 +16,8 @@ export default function NavScroll(){
                     <Navbar.Collapse id="navbarScroll">
                         <Nav className="me-auto my-2 my-lg-0" style={{ maxHeight: '100px' }} navbarScroll>
                             <Nav.Link className="nav__link" href="/">Inicio</Nav.Link>
-                            <Nav.Link className="nav__link" href="#action2">Nosotros</Nav.Link>
-                            <Nav.Link className="nav__link" href="#action3">Novedades</Nav.Link>
+                            <Nav.Link className="nav__link" href="/about">Nosotros</Nav.Link>
+                            <Nav.Link className="nav__link" href="/news">Novedades</Nav.Link>
                             <NavDropdown className="nav__link" href="/dontation" title="Donar" id="navbarScrollingDropdown">
                                 <NavDropdown.Item className="nav__link__item" href="/donation">Dinero</NavDropdown.Item>
                                 <NavDropdown.Item className="nav__link__item" href="/donation">Comida</NavDropdown.Item>
@@ -40,4 +40,4 @@ export default function NavScroll(){
             <div className="separator"></div>
         </>
     );
-        }
+}
