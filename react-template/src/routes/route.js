@@ -1,10 +1,8 @@
 import Volunteer from "../pages/volunteer/volunteer";
 import Donation from "../pages/donate/donation"
-import About from "../pages/About/About";
 import Home from "../pages/home/home";
-import New from "../pages/New/New"
 import BasicLayout from "../layouts/basiclayout";
-
+import LogIn from "../pages/Log In/Log-In";
 
 const routesClient = [
 
@@ -27,18 +25,10 @@ const routesClient = [
         path:"/volunteer",
         
     },
-
     {
-        component:About,
+        component:LogIn,
         layout:BasicLayout,
-        path:"/about",
-        
-    },
-
-    {
-        component:New,
-        layout:BasicLayout,
-        path:"/news",
+        path:"/login",
         
     },
 ];

@@ -17,7 +17,7 @@ export default function BasicLayout(props) {
           <NavScroll />
         </Col>
       </Row>
-      <Row>{children} </Row>
+      <Row>{children}</Row>
       <Row><FooterSection/></Row>
     </>
   );

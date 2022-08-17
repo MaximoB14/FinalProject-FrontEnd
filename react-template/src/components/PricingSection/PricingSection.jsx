@@ -8,13 +8,10 @@ export default function PricingContainer(props){
         <MDBContainer>
             <MDBRow>
                 <MDBCol size='md'>
-                    <Card title="First Card" text='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean est quam, pulvinar eget felis ut' btntext ='Button1'/>
+                    <Card class="donate__card" title="Donar DINERO" text='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean est quam, pulvinar eget felis ut' btntext ='Button1'/>
                 </MDBCol>
                 <MDBCol size='md'>
-                <Card title="Second Card" text='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean est quam, pulvinar eget felis ut' btntext ='Button2'/>
-                </MDBCol>
-                <MDBCol size='md'>
-                <Card title="Thrid Card" text='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean est quam, pulvinar eget felis ut' btntext ='Button3'/>
+                <Card title="Donar MERCADERIA" text='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean est quam, pulvinar eget felis ut' btntext ='Button2'/>
                 </MDBCol>
         </MDBRow>
     </MDBContainer>

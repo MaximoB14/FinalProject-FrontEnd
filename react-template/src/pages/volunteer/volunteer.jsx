@@ -1,10 +1,12 @@
 import React from "react";
-import BasicForm from "../../components/forms/BasicForm";
+import MultiStepForm from "../../components/MultiStepForm/MultiStepForm";
 
-export default function Volunteer(props){
+export default function Volunteer(){
 
     return(
-        <BasicForm/>
+      <>
+        <MultiStepForm />
+      </>
 
 );
 }

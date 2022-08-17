@@ -18,7 +18,7 @@ export default function ControlledCarousel() {
 
 
     return (
-        <Carousel prevIcon={<span aria-hidden="true" className="carousel-control-prev-icon"/>} nextIcon={<span aria-hidden="true" className="carousel-control-next-icon"/>} className="carousel"activeIndex={index} onSelect={handleSelect}>
+        <Carousel prevIcon={<span aria-hidden="true" className="carousel-control-prev-icon"/>} nextIcon={<span aria-hidden="true" className="carousel-control-next-icon"/>} className="carousel" activeIndex={index} onSelect={handleSelect} id="news_section">
                 <Carousel.Item>
                     <div className="cardcontainer">
                     <DailyCard  title="Bienvenidos" text="Primer testeo" scr="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxDCIdwWQjtV1aCrP5-C1nti01H31nfvxh84E2tMhZMl0Y39e43zBIZ6VKkl2JqObd1Lk&usqp=CAU" />

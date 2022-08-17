@@ -46,13 +46,13 @@
 }
 
 .primary {
-    margin-right: 20px;
-    margin-left: 60px;
-    background-color: var(--first-color);
-    border: none;
-    border-radius: 15px;
-    padding: 20px;
-    transition: .3s;
+    margin-right: 20px !important;
+    margin-left: 60px !important;
+    background-color: var(--first-color) !important; 
+    border: none !important;
+    border-radius: 15px !important;
+    padding: 20px !important;
+    transition: .3s !important;
 }
 
 .primary:hover{
@@ -65,12 +65,12 @@
 }
 
 .secondary{
-    background-color: var(--second-color);
-    border: none;
-    border-radius: 15px;
-    padding: 20px;
-    width: 150px;
-    transition: .3s;
+    background-color: var(--second-color) !important;
+    border: none !important;
+    border-radius: 15px !important;
+    padding: 20px !important;
+    width: 150px !important;
+    transition: .3s !important;
 }
 
 .secondary:hover{
