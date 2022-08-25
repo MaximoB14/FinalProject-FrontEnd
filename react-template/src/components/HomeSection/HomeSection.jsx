@@ -4,7 +4,7 @@ import ActiveStateButton from'../buttons/ActiveStateButtons/activestatebutton';
 export default function HomeSection (){
     return(
         <>
-            <section className="home" id="home">
+            <section className="home" id="home_section">
                 <div className="home__container grid">
                     <div className="home__data">
                         <h1 className="home__title">COCINAMOS</h1>

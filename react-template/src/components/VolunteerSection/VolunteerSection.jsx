@@ -4,7 +4,7 @@ import Button from 'react-bootstrap/Button';
 export default function VolunteerSection(){
     return(
         <>
-            <section className="volunteer" id="volunteer">
+            <section className="volunteer" id="volunteer_section">
                 <div className="separator"></div>
                     <div className="volunteer__container">
                         <div className="volunteer__data">
@@ -14,8 +14,8 @@ export default function VolunteerSection(){
                                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                                 Ut enim ad minim veniam, quis nostrud exercitation ullamco 
                                 laboris nisi ut aliquip ex ea commodo consequat.</p>
-                            <Button className="volunteer__btn" variant="primary">INSCRIBITE!</Button>
-                        </div>
+                            <Button className="volunteer__btn" href="/volunteer" variant="primary">INSCRIBITE!</Button>
+                        </div>11
                     </div>
                 <div className="separator"></div>
             </section>

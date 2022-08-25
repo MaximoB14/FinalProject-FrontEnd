@@ -1,10 +1,10 @@
 import React from "react";
 
 
-export default function LogIn (props){
+export default function LogIn (){
 
     return(
-        <h1>a</h1>
+        <h2>Caca</h2>
 
     );
 }

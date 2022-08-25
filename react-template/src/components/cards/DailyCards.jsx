@@ -15,7 +15,7 @@ export default function DailyCard(props) {
             <Card.Body className="card__body">
                 <Card.Title className="card__title">{title}</Card.Title>
                 <Card.Text className="card__text">{text}</Card.Text>
-                <Button className="card__btn">Go somewhere</Button>
+                <Button className="card__btn">Seguir leyendo</Button>
             </Card.Body>
         </Card>
   );

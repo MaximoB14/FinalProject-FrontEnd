@@ -4,7 +4,7 @@ import Button from 'react-bootstrap/Button';
 export default function HomeSection (){
     return(
         <>
-            <section className="donation" id="donation">
+            <section className="donation" id="donation_section">
                 <div className="don__separator"></div>
                     <div className="donation__container">
                         <div className="donation__data">
@@ -14,7 +14,7 @@ export default function HomeSection (){
                                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                                 Ut enim ad minim veniam, quis nostrud exercitation ullamco 
                                 laboris nisi ut aliquip ex ea commodo consequat.</p>
-                            <Button className="donation__btn" variant="primary">DONA!</Button>
+                            <Button className="donation__btn" href="/donation" variant="primary">DONA!</Button>
                         </div>
                     </div>
                 <div className="separator"></div>

@@ -44,13 +44,13 @@
   }
 
 .card{
-    border: none;
-    border-radius: 20px;
+    border: none !important;
+    border-radius: 20px !important;
     margin: 50px;
 }
 
 .card__img{
-    border-radius: 20px 20px 0 0;
+    border-radius: 20px 20px 0 0 !important;
     height: 280px;
 }
 
@@ -61,7 +61,7 @@
 
 .card__body{
     background-color: var(--first-color);
-    border-radius: 0 0 5px 5px !important;
+    border-radius: 0 0 20px 20px !important;
 }
 
 .card__text{

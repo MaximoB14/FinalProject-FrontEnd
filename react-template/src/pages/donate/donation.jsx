@@ -5,7 +5,8 @@ import "../donate/donation.css"
 export default function Donation(props){
 
     return(
-        <PricingContainer/>       
-
+        <div className= "Container">
+            <PricingContainer/>       
+        </div>
 );
 }

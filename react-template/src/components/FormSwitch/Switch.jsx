@@ -1,8 +1,7 @@
 import { Container, Row, Col } from "react-bootstrap";
 import { useState } from "react";
-import UserDetails from "../Details/UserDetails";
-import AddressDetails from "../Details/AddressDetails";
-import Confirmation from "../Details/Confirmation";
+import UserDetails from "../FormDetails/UserDetails";
+import AddressDetails from "../FormDetails/AddressDetails";
 
 function Switch() {
   //state for steps
@@ -12,8 +11,9 @@ function Switch() {
   const [formData, setFormData] = useState({
     firstName: "",
     lastName: "",
-    age: "",
-    email: ""
+    dateOfBirth: "",
+    email: "",
+    postCode:""
   })
 
   // function for going to next step by increasing step state by 1
@@ -61,20 +61,7 @@ function Switch() {
           <Container>
             <Row>
               <Col  md={{ span: 6, offset: 3 }} className="custom-margin">
-                <AddressDetails nextStep={nextStep} prevStep={prevStep} handleFormData={handleInputData} values={formData} />
-              </Col>
-            </Row>
-          </Container>
-        </div>
-      );
-      // Only formData is passed as prop to show the final value at form submit
-    case 3:
-      return (
-        <div className="Switch">
-          <Container>
-            <Row>
-              <Col  md={{ span: 6, offset: 3 }} className="custom-margin">
-                <Confirmation values={formData}  />
+                <AddressDetails prevStep={prevStep} handleFormData={handleInputData} values={formData} />
               </Col>
             </Row>
           </Container>

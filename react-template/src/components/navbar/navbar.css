@@ -39,7 +39,7 @@
   --mb-2: 2rem;
   --mb-2-5: 2.5rem;
   --mb-3: 3rem;
-
+  
   /*========== z index ==========*/
   --z-tooltip: 10;
   --z-fixed: 100;
@@ -57,11 +57,12 @@
     transition: .4s;
   }
   
-.nav{
-  background-color: var(--first-color);
-  color: var(--text-color);
+  .nav{
+    background-color: var(--first-color);
+    color: var(--text-color);
+    margin-bottom: 100px;
 }
-  
+
 .nav__logo{
   height: 50px;
   width: 50px;
@@ -81,7 +82,7 @@
 
 .nav-link:focus{
   color: var(--button-color-alt) !important;
-
+  
 }
 
 #navbarScrollingDropdown{
@@ -107,7 +108,7 @@
 
 .nav__link__item:hover{
   background-color: var(--second-color) !important;
-
+  
 }
 
 .search__btn{
