@@ -1,6 +1,6 @@
 import React from "react";
 import '../HomeSection/HomeSection.css'
-import ActiveStateButton from'../buttons/ActiveStateButtons/activestatebutton';
+import ActiveStateButton from'../ActiveStateButtons/Activestatebutton';
 export default function HomeSection (){
     return(
         <>
@@ -10,10 +10,9 @@ export default function HomeSection (){
                         <h1 className="home__title">COCINAMOS</h1>
                         <h1 className="home__title__bold">POR LOS NIÑOS</h1>
                         <p className="home__description">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                            Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-                            laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        Somos familias que nos unimos para ayudar a niños con dificultades para alimentarse. Formamos células de trabajo para poder dividir todas las tareas que realizamos y cumplir el objetivo principal: ayudar a familias que no pueden alimentar a a sus hijos.  
+
+                        </p>
                         <div className="home__btns">
                             <ActiveStateButton/>
                         </div>

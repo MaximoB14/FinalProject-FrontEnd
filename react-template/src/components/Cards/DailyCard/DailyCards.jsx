@@ -1,7 +1,7 @@
 import React from 'react';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import '../cards/DailyCards.css';
+import '../DailyCard/DailyCards.css';
 
 
 export default function DailyCard(props) {

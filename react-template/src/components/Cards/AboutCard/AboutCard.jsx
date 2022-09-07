@@ -1,5 +1,5 @@
 import React from "react";
-import '../cards/AboutCard.css'
+import '../AboutCard/AboutCard.css'
 import {MDBCard,MDBCardTitle,MDBCardText,MDBCardOverlay,MDBCardImage} from 'mdb-react-ui-kit';
 
 

@@ -1,7 +1,7 @@
 import {React, useState} from 'react';
 import { Form, Card, Button } from "react-bootstrap";
 import validator from "validator";
-import "../FormDetails/Form.css"
+import "../FormDetails/Form.css";
 
 // creating functional component ans getting props from app.js and destucturing them
 const  UserDetails = ({ nextStep, handleFormData, values }) => {
@@ -14,10 +14,10 @@ const  UserDetails = ({ nextStep, handleFormData, values }) => {
 
     // checking if value is empty show error else take to step 2
     if (
-      validator.isEmpty(values.firstName) ||
-      validator.isEmpty(values.lastName)  ||
+      validator.isEmpty(values.firstName)         ||
+      validator.isEmpty(values.lastName)          ||
       validator.isEmpty(values.dateOfBirth)       ||
-      validator.isEmpty(values.telephone)       ||
+      validator.isEmpty(values.telephone)         ||
       validator.isEmpty(values.email)
     ) {
       setError(true);
@@ -95,8 +95,7 @@ const  UserDetails = ({ nextStep, handleFormData, values }) => {
 
             <Form.Group className="mb-3">
               <Form.Label>Email</Form.Label>
-              <Form.Control
-                style={{ border: error ? "2px solid red" : "" }}
+              <Form.Control style={{ border: error ? "2px solid red" : "" }}
                 defaultValue={values.email}
                 type="email"
                 name="email"

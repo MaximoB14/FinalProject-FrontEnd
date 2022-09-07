@@ -1,9 +1,8 @@
 import React from 'react';
 import { MDBContainer, MDBRow, MDBCol } from 'mdb-react-ui-kit';
-import Card from "../../components/cards/Pricing Card/Card"
+import Card from "../../components/Cards/PricingCard/Card"
 import "../PricingSection/PricingSection.css"
-import {MDBCard,MDBCardTitle,MDBCardText,MDBCardOverlay, MDBIcon} from 'mdb-react-ui-kit';
-import Button from 'react-bootstrap/Button';
+
 
 
 
@@ -13,48 +12,19 @@ export default function PricingContainer(props){
         <MDBContainer>
             <MDBRow className="donate__row">
                 <MDBCol>
-                    <MDBCard>
-                            <MDBCardOverlay>
-                                <div className="donate__header">
-                                    <MDBCardTitle className="donate__title">
-                                        Donar DINERO
-                                    </MDBCardTitle>
-                                </div>
-                                <div className="donate__div">
-                                    <MDBCardText className="donate__text">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae soluta consequatur ipsum consectetur qui, a sint nesciunt officiis incidunt expedita! Impedit exercitationem facere deleniti ratione reiciendis quod, sit dolorum cumque.
-                                    </MDBCardText>
-                                    <Button className="donate__button">
-                                        Ir a Mercado Pago <MDBIcon className="donate__icon" fas icon="credit-card" />
-                                    </Button>
-                                </div>
-                        </MDBCardOverlay>
-                    </MDBCard>
+                    <Card 
+                        title="Dona" 
+                        text="El dinero que aportan por donaciones llega a un fondo común que nos permitirá comprar utensilios, alimentos, descartables y ayudar a refaccionar lugares que alojan a niños que necesitan alimentarse. " 
+                        btntext=" Ir a MercadoPago"/>
                 </MDBCol>
                 <MDBCol>
-                    <MDBCard>
-                        <MDBCardOverlay>
-                            <div className="donate__header">
-                                <MDBCardTitle className="donate__title">
-                                    Donar MERCADERIA
-                                </MDBCardTitle>
-                            </div>
-                            <div className="donate__div">
-                                <MDBCardText className="donate__text">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae soluta consequatur ipsum consectetur qui, a sint nesciunt officiis incidunt expedita! Impedit exercitationem facere deleniti ratione reiciendis quod, sit dolorum cumque.
-                                </MDBCardText>
-                                <Button className="donate__button">
-                                    Contactate con nosotros
-                                </Button>
-                            </div>
-                        </MDBCardOverlay>
-                    </MDBCard>
+                    <Card
+                        title="Dona" 
+                        text="las donaciones se pueden entregar en puntos de la ciudad en caso de querer entregarlas personalmente o las podemos pasar a buscar a través de alguno de nuestros voluntarios que se encarga de dicha tarea." 
+                        btntext=" Ir a MercadoPago"/>
                 </MDBCol>
             </MDBRow>
-        </MDBContainer>
-
-    
-        
+        </MDBContainer>  
 
 );
 }

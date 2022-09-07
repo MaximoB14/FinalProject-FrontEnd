@@ -1,6 +1,4 @@
 import React from 'react';
-import Button from 'react-bootstrap/Button';
-import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import '../Navbar/navbar.css';
@@ -20,10 +18,7 @@ export default function NavScroll(){
                             <Nav.Link className="nav__link" href="/#about_section">Nosotros</Nav.Link>
                             <Nav.Link className="nav__link" href="/#donation_section">Donaciones</Nav.Link>
                         </Nav >
-                        <Form className="d-flex">
-                            <Form.Control type="search" placeholder="Búsqueda" className="me-2" aria-label="Search"/>
-                            <Button className="search__btn" href="/login">Login</Button>
-                        </Form>
+
                     </Navbar.Collapse>
             </Navbar>
             <div className="separator"></div>
